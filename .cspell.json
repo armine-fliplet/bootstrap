@@ -89,7 +89,6 @@
     "ruleset",
     "screenreaders",
     "scrollbars",
-    "scrollspy",
     "Segoe",
     "semibold",
     "socio",
@@ -119,9 +118,7 @@
     "zindex"
   ],
   "language": "en-US",
-  "files": [
-    "**/*.md"
-  ],
+  "files": ["**/*.md"],
   "ignorePaths": [
     ".cspell.json",
     "dist/",
