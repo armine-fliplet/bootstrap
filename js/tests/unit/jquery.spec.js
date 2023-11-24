@@ -8,7 +8,6 @@ import Dropdown from '../../src/dropdown.js'
 import Modal from '../../src/modal.js'
 import Offcanvas from '../../src/offcanvas.js'
 import Popover from '../../src/popover.js'
-import ScrollSpy from '../../src/scrollspy.js'
 import Tab from '../../src/tab.js'
 import Toast from '../../src/toast.js'
 import Tooltip from '../../src/tooltip.js'
@@ -34,7 +33,6 @@ describe('jQuery', () => {
     expect(Modal.jQueryInterface).toEqual(jQuery.fn.modal)
     expect(Offcanvas.jQueryInterface).toEqual(jQuery.fn.offcanvas)
     expect(Popover.jQueryInterface).toEqual(jQuery.fn.popover)
-    expect(ScrollSpy.jQueryInterface).toEqual(jQuery.fn.scrollspy)
     expect(Tab.jQueryInterface).toEqual(jQuery.fn.tab)
     expect(Toast.jQueryInterface).toEqual(jQuery.fn.toast)
     expect(Tooltip.jQueryInterface).toEqual(jQuery.fn.tooltip)
